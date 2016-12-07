@@ -1,0 +1,139 @@
+body{
+    background: #F2F2F2;
+}
+.login-form{
+    max-width: 300px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-form-logo{
+    max-height: 32px;
+    border-radius: 4px;
+    float: right
+}
+
+#wpwrap {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+#adminmenuback {
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: 1;
+}
+#adminmenuwrap{
+    position: relative;
+    float: left;
+    z-index: 9990;
+}
+#adminmenuback, #adminmenuwrap {
+    width: 160px;
+    background-color: #23282d;
+}
+#adminmenu li.menu-top {
+    border: none;
+    min-height: 34px;
+    position: relative;
+}
+#adminmenu li {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    list-style: none;
+    min-height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+}
+#adminmenu li span {
+    color: #eee;
+}
+#adminmenu{
+    padding: 0;
+}
+#adminmenu li a{
+    color: #eee;
+    text-decoration: none;
+    display: block;
+}
+#adminmenu li:not(.has-submenu):hover,#adminmenu li.active{
+    background: #191e23
+}
+#adminmenu li a:hover{
+    color: #ccc;
+}
+#content{
+    margin-left: 160px;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 54px;
+}
+#admin-bar{
+    background-color: #23282d;
+    height: 34px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 180px;
+    padding-right: 20px;
+    color: #eee;
+}
+#admin-bar ul{
+    background: 0 0;
+    clear: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: 0;
+    z-index: 99999;
+}
+#admin-bar ul li{
+    list-style: none;
+    float: left;
+    line-height: 34px;
+}
+#admin-bar a{
+    color: #eee;
+}
+.admin-logo{
+    float: left;
+    max-width: 20px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.submenu {
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+}
+#adminmenu li.has-submenu {
+    padding-left: 0;
+}
+#adminmenu li.has-submenu span {
+    padding-left: 15px;
+}
+#adminmenu li.has-submenu.oppened ul {
+    max-height: 500px;
+    transition: max-height 0.3s ease-in;
+    padding-left: 0;
+    background-color: #464646;
+}
+#adminmenu li.has-submenu ul li {
+    padding-left: 15px;
+}
+.texteditor {
+    max-height: 450px;
+    width: 500px;
+}
+.email_header {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
